@@ -5,6 +5,8 @@ layout: ../../layouts/MainLayout.astro
 source: https://github.com/muxinc/media-chrome/tree/main/src/js/media-play-button.js
 ---
 
+import { Sandpack } from "@codesandbox/sandpack-react";
+
 Button to toggle media playback.
 
 <h3>Default</h3>
@@ -14,6 +16,12 @@ Button to toggle media playback.
 ```html
 <media-play-button media-paused></media-play-button>
 ```
+
+<Sandpack
+  files={{}} 
+  theme="light" 
+  template="vite"
+/>
 
 <h3>Pause</h3>
 

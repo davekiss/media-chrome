@@ -84,5 +84,6 @@
     "media",
     "player",
     "controls"
-  ]
+  ],
+  "dependencies": {}
 }
